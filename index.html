@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>FacundoPietrobon</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">FacuBon</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="mailto:facundopietrobon@hotmail.com" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+      <!-- SECCION INICIO -->
+      <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/yo.png" alt="imagen mia">
+            </div>
+            <h1>Facundo Pietrobon</h1>
+            <h2>Frontend Developer </h2>
+            <div class="redes">
+                <a href="mailto:facundopietrobon@hotmail.com"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://github.com/facubon" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                <a href="https://www.linkedin.com/in/facundopietrobon/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+<!----------------- Skills---------------->
+    <section class="skills">
+        <div class="skill container"> 
+            <div class="knowledge-part" id="skills">
+                <h2 class="skillstyp">HERRAMIENTAS</h2>
+                <div class="knowledge">
+                    <div>
+                        <img src="./img/html-icon.png" alt="">
+                        <h3>HTML</h3>
+                    </div>
+                    <div>
+                        <img src="./img/css-icon.png" alt="">
+                        <h3>CSS</h3> 
+                    </div>
+                    <div><img src="./img/js-icon.png" alt="">
+                        <h3>Javascript</h3>
+                    </div>
+                    <div class="sass"><img src="./img/sass.png" alt="">
+                        <h3>Sass</h3>
+                    </div>
+                    <div><img src="./img/reactjs.png" alt="">
+                        <h3>React Js</h3>
+                    </div>
+                    <div><img src="./img/bootstrap.png" alt="">
+                        <h3>bootstrap</h3>
+                    </div>
+                    <div><img src="./img/nodejs.png" alt="">
+                        <h3>Node Js</h3>
+                    </div>
+                    <div class="mongodb"><img src="./img/mongodb.png" alt="">
+                        <h3>Mongo DB</h3>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="tools-part">
+                <h2 class="skillstyp">CONOCIMIENTOS</h2>
+                <div class="tools">
+                    <div>
+                        <img src="./img/github-icon.png" alt="">
+                        <h3>GitHub</h3>
+                    </div>
+                    <div>
+                        <img src="./img/vsc-icon.png" alt="">
+                        <h3>Visual Studio</h3>
+                    </div>
+                    <div>
+                        <img src="./img/git-icon.png" alt="">
+                        <h3 >GIT</h3>
+                    </div>
+                   <div> 
+                       <img src="./img/npm-icon.png" alt="">
+                        <h3>NPM</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- SECCION PORTFOLIO -->
+ <section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+            <div class="proyecto">
+              <a class="links" href="https://facubon.github.io/INTRAL-web/" target="_blank"> <img src="img/intralfoto.png" alt="imagen intral S.A"> 
+                <div class="overlay">
+                    <h3>Intral S.A</h3>
+                    <p>Constructora</p>
+                </a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <a class="links" href="https://facubon.github.io/Calculadora/" target="_blank">
+                <img src="img/calculadorafoto.png" alt="imagen calculadora">
+                <div class="overlay">
+                    <h3>Calculadora</h3>
+                    <p>Html/Css/Js</p>
+                </a>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <a class="links" href="https://worried-nebula-glazer.glitch.me/" target="_blank">
+                <img src="img/capturachat.png" alt="imagen chat">
+                <div class="overlay">
+                    <h3>Chat grupal</h3>
+                    <p>Solo desde PC</p>
+                </a>
+                </div>
+            </div>
+        
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+  <!-- footer -->
+  <footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="mailto:facundopietrobon@hotmail.com"><i class="fa-regular fa-envelope"></i></a>
+        <a href="https://github.com/facubon" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+        <a href="https://www.linkedin.com/in/facundopietrobon/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+    <div><p>Portfolio 2023</p></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

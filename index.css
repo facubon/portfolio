@@ -230,6 +230,7 @@ section.skills {
     width: 90%;
     margin: 0 auto;
     padding-bottom: 110px;
+    
 
 }
 
@@ -279,8 +280,8 @@ section.skills {
 
 
 }
-.knowledge>div:hover h3,
-.tools>div:hover h3 {
+.knowledge div:hover h3,
+.tools div:hover h3 {
     opacity: 1;
     transform: translate(0px,-150px);
 }
@@ -410,6 +411,21 @@ footer .redes a:hover{
 }
 
 
+body::-webkit-scrollbar{
+    width: 7px;
+    
+}
+
+body::-webkit-scrollbar-thumb{
+    background:  #1CB698;
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #1e2326;
+}
+
+
 /*---------------- RESPONSIVE--------------------/*
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
@@ -454,4 +470,5 @@ footer .redes a:hover{
     .contacto .fila .col{
         width: 100%;
     }
+
 }

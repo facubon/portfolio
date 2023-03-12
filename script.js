@@ -21,3 +21,4 @@ function seleccionar(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
